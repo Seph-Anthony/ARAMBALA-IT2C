@@ -59,7 +59,7 @@ public class Inputfit {
             
         }
         
-        System.out.printf("%-10s %-10s %-10s %-10s %-10s %-10s\n", "ID","Name", "Age","BMI","Fitness","Eligibility Status");
+        System.out.printf("%-10s %-10s %-10s %-10s %-10s %-10s %-10s\n", "ID","Name", "Age","BMI","Fitness","Eligibility", "Status");
         
         for (int i = 0; i<no; i++){
             

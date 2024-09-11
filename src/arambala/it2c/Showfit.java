@@ -37,12 +37,12 @@ public class Showfit {
              goal = "General Fitness";
         }
         
-        String status = (this.age>= 18 && this.age<=65)? "": "Age to high";
+        String status = (this.age>= 18 && this.age<=65)? "": "(Age to high)";
        
+        String elig = (this.age>= 18 && this.age<=65)? "Eligible": "Not Eligible";
         
         
-        
-        System.out.printf("%-10d %-10s %-10d %-10.2f %-10s %-10s\n", this.id, this.name, this.age, this.bmi, goal, status);
+        System.out.printf("%-10d %-10s %-10d %-10.2f %-10s %-10s %-10s\n", this.id, this.name, this.age, this.bmi, goal, elig, status);
         
     }
     
